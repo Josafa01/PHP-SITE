@@ -1,0 +1,137 @@
+.button, .button:focus,
+.button:active, .button:visited
+ {
+ 	background-color: #fff;
+ 	color: #006622;
+ 	border:2px solid #006622;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+ 	font-size: 19px;
+ 	text-transform: uppercase;
+ 	border-radius: 3px;
+ 	transition: all 1s;
+ 	-webkit-transition: all 1s;
+ 	-moz-transition: all 1s;
+ 	-o-transition: all 1s;
+ 	text-decoration:none;
+}
+
+.button:hover {
+	background-color: #006622;
+	border:1px solid #006622;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+.btn-style {
+	display: flex;
+  	flex-wrap: wrap;
+  	align-content: flex-end;
+  	margin-bottom: 100px;
+  	margin-left: 200px;
+}
+
+.phrase {
+	color: #FFFFFF;
+	font-size: 25px;
+	position: absolute;
+  	left: 15%;
+ 	top: 10%;
+ 	text-shadow: 1px 1px 4px #000, 0 0 5px #000, 0 0 3px #000;
+ 	margin-top: 100px;
+ 	width:990px;
+}
+
+.products {
+	background-color: #0c0f00;
+	height: 800px;
+}
+
+.prod_container {
+  	display: flex;
+  	justify-content: center;
+}
+
+.title_prod {
+	margin-top: 100px;
+}
+
+ .title {
+	color: #fff;
+  	text-shadow: 1px 1px 4px #000, 0 0 5px #000, 0 0 3px #000;
+  	font-size: 25px;
+  	width: 150px;
+  	display: flex;
+  	justify-content: center;
+}
+
+.widget_title_prod {
+   	width: 110px;
+	height: 5px;
+	background-color: #006622;
+	position: absolute;
+	margin-top: 40px;
+}
+
+.widget_title_prod:hover {
+   	width: 160px;
+	height: 5px;
+	background-color: #006622;
+	position: absolute;
+	margin-top: 40px;
+	transition: all 1s;
+ 	-webkit-transition: all 1s;
+ 	-moz-transition: all 1s;
+ 	-o-transition: all 1s;
+}
+
+.prod_txt {
+	width: 890px;
+	margin-top: 50px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 4px #000, 0 0 5px #000, 0 0 3px #000;
+	font-size: 18px;
+}
+
+.prod_item {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	width: 990px;
+	padding:10px;
+	margin-top: 60px;
+	margin-left: -2%;
+	opacity: 0;
+}
+
+
+.prod_item div {
+	background-color:#006622;
+	width:150px;
+	height:150px;
+	margin-top:28px;
+	border-radius: 5px;
+	box-shadow: 2px 2px #000;
+	overflow-y: hidden !important;
+}
+
+.desc_prod {
+	opacity: 0;
+}
+
+.prod_item div > .desc_prod:hover {
+	opacity: 1;
+	height:70px;
+	background-color: #fff;	
+	padding-top: 100px;
+	margin-top: 90px;
+	transition: all 2s;
+ 	-webkit-transition: all 2s;
+ 	-moz-transition: all 2s;
+ 	-o-transition: all 2s;
+}
